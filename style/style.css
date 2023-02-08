@@ -1,8 +1,10 @@
 body{
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    min-width: 0%;
-    max-width: 1440%;
+    min-width: 700px;
+    max-width: 1440px;
+
 }
 
 :root{
@@ -81,7 +83,7 @@ body{
 }
 
 .card-margin{
-    margin: 0 2.5%;
+    margin: 0 3%;
     box-shadow: 0px 21px 35px 0px rgba(0, 209, 255, 0.35);
 }
 
@@ -129,13 +131,9 @@ body{
     margin: 23px auto;
 }
 
-footer{
-    width: 1440px;
-}
-
 .media_backgraunt{
     background-image: linear-gradient(to bottom, #013235, #0D0661);
-    width: 100%;
+    width: 1440px;
     height: 233px;
     margin: 42px 0 0;
 }
