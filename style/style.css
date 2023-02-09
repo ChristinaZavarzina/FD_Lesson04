@@ -1,10 +1,13 @@
-body{
-    margin: 0;
-    padding: 0;
+*{
     box-sizing: border-box;
-    min-width: 700px;
-    max-width: 1440px;
+}
 
+body{
+    margin: 0 auto;
+    padding: 0;
+    min-width: 0%;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 :root{
@@ -13,65 +16,70 @@ body{
 }
 
 .header{
-    width: 548px;
+    width: 100%;
     height: 54px;
     letter-spacing: 0.1em;
     font-size: 48px;
-    margin: 25px 404px 25px 488px ;
-    line-height: 70px;
+    margin: 25px auto;
+    text-align: center;
 }
 
 .backgraund{
     background-image: url(../flag.svg), url(../img/backgraund.png) ;
-    width: 1440px;
+    width: 100%;
     height: 765px;
     background-repeat: no-repeat;
     background-position: 80px 239px, 100%;
+    margin: 0 auto;
 }
 
 .text{
-    width: 1036px;
+    width: 100%;
     height: 304px;
     color: white;
+    font-family: 'Inika';
+    font-style: normal;
     font-weight: 700;
-    font-size: 46px;
-    line-height: 76px;
+    font-size: 48px;
+    line-height: 80px;
     padding-left: 141px;
     padding-top: 225px;
-    padding-right: 263px;
-    padding-bottom: 236px;
 }
 
-.title{
-    width: 610px;
-    height: 63px;
+.title_card_box{
+    width: 100%;
+    font-family: 'Inika';
+    font-style: normal;
     color: black;
+    line-height: 63px;
     font-size: 40px;
-    padding: 48px 750px 5px 80px;
+    padding-top: 48px;
+    padding-left: 80px;
 }
 
 .title_place{
     background-image: linear-gradient(to right, #00E0FF , #1400FF 50%, #FFA800 50%, #FFF500);
-    width: 780px;
+    width: 779px;
     height: 12px;
-    margin-top: 5px;
+    padding-top: 5px;
 }
 
 .cards{
+    display: inline-block;
     min-width: 0%;
     max-width: 100%;
-    margin-top: 59px;
-    margin-left: 80px;
-
+    padding: 59px 80px 0;
+    margin: 0 auto;
 }
 
 .card{
     display: inline-block;
-    width: 385px;
+    width: 31%;
     border: 5px solid #0D095F;
     height: 481px;
     border-radius: 8.5%;
     vertical-align: top;
+    margin: 0 auto;
 }
 
 .shadow1{
@@ -133,46 +141,49 @@ body{
 
 .media_backgraunt{
     background-image: linear-gradient(to bottom, #013235, #0D0661);
-    width: 1440px;
+    width: 100%;
     height: 233px;
-    margin: 42px 0 0;
+    margin: 42px auto 0;
 }
 
 .footer__title{
-    width: 500px;
-    height: 70px;
+    width: 100%;
+    height: 60px;
     letter-spacing: 0.1em;
     font-size: 48px;
-    margin: 42px auto 0;
-    line-height: 70px;
+    line-height: 1.3;
+    text-align: center;
 }
 
 .mail{
-    width: 452px;
-    height: 49px;
+    width: 100%;
+    height: 45px;
     color: #A89D9D;
     letter-spacing: 0.1em;
     font-size: 36px;
-    line-height: 45px;
+    line-height: 1.2;
+    text-align: center;
     margin: 0px auto;
 }
 
 .tel{
-    width: 355px;
+    width: 100%;
     height: 49px;
     color: #A89D9D;
     letter-spacing: 0.1em;
     font-size: 36px;
-    line-height: 45px;
-    margin: 0px auto;
+    line-height: 1.5;
+    text-align: center;
+    margin: 0 auto;
 }
 
 .social{
-    width: 200px;
+    width: 100%;
     height: 49px;
     color: #A89D9D;
     letter-spacing: 0.1em;
     font-size: 36px;
-    line-height: 45px;
-    margin: auto;
+    line-height: 1.6;
+    text-align: center;
+    margin: 0 auto;
 }
