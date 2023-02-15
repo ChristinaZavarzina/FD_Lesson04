@@ -24,14 +24,6 @@ body{
     text-align: center;
 }
 
-/* .back{
-    background-image: linear-gradient(to right, #00E0FF , #1400FF 50%, #FFA800 50%, #FFF500);
-    background-repeat: no-repeat;
-    transform: rotate(90deg);
-    width: 290px;
-    height: 23px;
-} */
-
 .backgraund{
     background-image: url(../flag.svg), url(../img/backgraund.png);
     width: 100%;
