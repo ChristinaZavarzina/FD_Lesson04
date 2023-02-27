@@ -82,8 +82,10 @@ font-family: 'M PLUS 1p', sans-serif; */
 
 .cards{
     display: flex;
-    padding: 40px 80px;
-    margin: 0 auto;
+    height: 481px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 45px 80px;
 }
 
 .card{
@@ -93,7 +95,6 @@ font-family: 'M PLUS 1p', sans-serif; */
     height: 481px;
     border-radius: 8.5%;
     vertical-align: top;
-    margin: 0 auto;
 }
 
 .shadow1{
@@ -124,18 +125,19 @@ font-family: 'M PLUS 1p', sans-serif; */
 }
 
 .title_map{
+    display: flex;
     width: 568px;
     height: 63px;
     color: black;
     font-size: 40px;
-    margin: 0 auto;
+    margin: 45px auto;
     border-bottom: 5px solid #1400FF;
 }
 
 .img_map{
     display: flex;
     justify-content: center;
-    margin: 32px auto;
+    margin: 0 auto;
 }
 
 .go{
@@ -143,7 +145,7 @@ font-family: 'M PLUS 1p', sans-serif; */
     height: 81px;
     background: #2A61F0;
     border-radius: 50px;
-    margin: 0 auto 40px;
+    margin: 32px auto 40px;
 }
 
 .go_rect{
@@ -153,6 +155,7 @@ font-family: 'M PLUS 1p', sans-serif; */
 
 .media_backgraunt{
     height: 233px;
+    width: 100%;
     background-image: linear-gradient(to bottom, #013235, #0D0661);
 }
 
