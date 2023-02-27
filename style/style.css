@@ -41,25 +41,25 @@ font-family: 'M PLUS 1p', sans-serif; */
     justify-content: center;
 }
 
-.backgraund{
-    width: 100%;
+.backgraund img{
+    width: 100vw;
     height: 765px;
     display: flex;
     justify-content: center;
-    align-items: center;
-    background-image: url(../img/backgraund.png);
-    background-repeat: no-repeat;
-    background-position: 10%, 0;
 }
 
 .text__back{
+    width: 100%;
     display: flex;
     color: var(--white);
     font-weight: 700;
     font-size: 48px;
     line-height: 1.5;
     justify-content: center;
-    padding-top: 225px;
+    align-items: center;
+    position: absolute;
+    top: 335px;
+    left: 0;
 }
 
 .text__back::before{
@@ -82,15 +82,16 @@ font-family: 'M PLUS 1p', sans-serif; */
 
 .cards{
     display: flex;
-    height: 481px;
+    height: 27.221279%; /* 481/1767 */
     justify-content: space-between;
     align-items: center;
     margin: 45px 80px;
 }
 
 .card{
+    height: 100%;
     display: inline-block;
-    width: 30%;
+    /* width: 30%; */
     border: 5px solid #0D095F;
     height: 481px;
     border-radius: 8.5%;
@@ -155,7 +156,7 @@ font-family: 'M PLUS 1p', sans-serif; */
 
 .media_backgraunt{
     height: 233px;
-    width: 100%;
+    width: 100vw;
     background-image: linear-gradient(to bottom, #013235, #0D0661);
 }
 
